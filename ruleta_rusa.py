@@ -4,9 +4,6 @@ import sys
 import subprocess
 from colorama import Fore, Style, init
 
-init(autoreset=True)  # Inicializa Colorama para Windows
-
-
 # funcion para limpiar la pantalla
 def limpiar_pantalla():
     os.system('cls' if os.name == "nt" else 'clear')
