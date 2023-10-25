@@ -2,12 +2,12 @@
 Este es un juego simple de Ruleta Rusa implementado en Python. La Ruleta Rusa es un juego peligroso en el que los jugadores se turnan para disparar un revólver cargado con una bala. Este juego es solo una simulación y no implica riesgos reales.
 
 Requisitos
-Python 3.x instalado en tu sistema.
+- Python 3.x instalado en tu sistema.
 Instrucciones
 Ejecuta el juego usando el comando:
-
-
+```shell
 python ruleta_rusa.py
+```
 Elige entre las dos opciones:
 
 1. Empezar a jugar: Inicia el juego de Ruleta Rusa (simulado).
@@ -24,4 +24,5 @@ Asegúrate de entender que este juego es una broma y no representa un riesgo rea
 Requisitos adicionales
 El archivo requirements.txt contiene la lista de dependencias necesarias para el juego. Puedes instalar estas dependencias ejecutando:
 
+```shell
 pip install -r requirements.txt
